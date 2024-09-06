@@ -93,7 +93,6 @@ class GameViewModel: ViewModel() {
     }
 
     private fun shuffleCurrentWord(word: String): String {
-        Log.d("GameViewModel", "Shuffling word $word")
         val tempWord = word.toCharArray()
         // Scramble the word
         tempWord.shuffle()
